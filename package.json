@@ -7,7 +7,9 @@
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server",
     "test": "npm run test-unit",
-    "test-unit": "jest"
+    "test-unit": "jest",
+    "teste2e": "npm run test-e2e",
+    "test-e2e": "cypress open"
   },
   "keywords": [],
   "author": "Noroff",
@@ -15,6 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.4",
+    "cypress": "^13.6.3",
     "eslint": "^8.56.0",
     "jest": "^29.7.0",
     "live-server": "^1.2.2",
