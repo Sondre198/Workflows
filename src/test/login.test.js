@@ -21,5 +21,6 @@ describe("login function", () => {
 
     expect(storage.save).toHaveBeenCalledWith("token", "test-token");
   });
+
 });
 
